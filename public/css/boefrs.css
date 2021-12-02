@@ -1,0 +1,536 @@
+@font-face {
+  font-family: "Prompt";
+  src: url(../fonts/prompt-regular-webfont.eot?f1b422e52494ad8f73d1387cb2f5994f);
+  src: url(../fonts/prompt-regular-webfont.eot?f1b422e52494ad8f73d1387cb2f5994f) format("embedded-opentype"), url(../fonts/prompt-regular-webfont.woff2?3e904f9ba7834485f646c929569121dc) format("woff2"), url(../fonts/prompt-regular-webfont.woff?7f3a833f2dfab2beaac3c681179a8564) format("woff"), url(../fonts/prompt-regular-webfont.ttf?c9e8b4b6ac6091233c7a80e14cee65a5) format("truetype"), url(../fonts/prompt-regular-webfont.svg?99784a93a56552d14353ad1b920450d4) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Motosansthai-Light";
+  src: url(../fonts/notosansthai-light-webfont.eot?a24a97140b8f73d457e92cf6a1ceb6dd);
+  src: url(../fonts/notosansthai-light-webfont.eot?a24a97140b8f73d457e92cf6a1ceb6dd) format("embedded-opentype"), url(../fonts/notosansthai-light-webfont.woff2?9dd858670bdef73a43a69ce109403267) format("woff2"), url(../fonts/notosansthai-light-webfont.woff?1067f0d3089eed55c13d45b7e587313d) format("woff"), url(../fonts/notosansthai-light-webfont.ttf?90c09b7060904c87e5ac34d6666ceff7) format("truetype"), url(../fonts/notosansthai-light-webfont.svg?0b66f37cff51904b89af0744de5fb95e) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Motoserifthai-Light";
+  src: url(../fonts/notoserifthai-light-webfont.eot?4b59520ebfad9f6d909d5c82f19f141f);
+  src: url(../fonts/notoserifthai-light-webfont.eot?4b59520ebfad9f6d909d5c82f19f141f) format("embedded-opentype"), url(../fonts/notoserifthai-light-webfont.woff2?cb0fe740ec666a15b406f4bbbb84ef0b) format("woff2"), url(../fonts/notoserifthai-light-webfont.woff?a415eebec0aa193c3f2fc475c2295832) format("woff"), url(../fonts/notoserifthai-light-webfont.ttf?25fc01416ab9b9618686e86f2c28f1cd) format("truetype"), url(../fonts/notoserifthai-light-webfont.svg?43ecaaac5e7cb01eb382ef32ad345da3) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fira-code";
+  src: url(../fonts/FiraCode-Regular.woff2?ea8e341601f69d25bb335b834f77e732) format("woff2"), url(../fonts/FiraCode-Regular.ttf?1b433a821ef8f9a70eac6aea64f7cac8) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sukhumvit";
+  src: url(../fonts/SukhumvitReg.woff2?d593a19afb6184190da0835a043687f9) format("woff2"), url(../fonts/SukhumvitReg.woff?2025ba7f123849d66c726cae4d6754ea) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.page-wrapper-custom {
+  background-color: #fff;
+}
+
+.font-fira {
+  font-family: "Fira-code" !important;
+  font-style: normal;
+}
+
+.font-prompt {
+  font-family: "prompt" !important;
+  font-style: normal;
+}
+
+.card {
+  font-family: "sukhumvit" !important;
+  font-style: normal;
+}
+
+.bd-callout {
+  padding: 1.25rem;
+  margin: 1rem 0 1.25rem 0;
+  border: 1px solid #eee;
+  border-left-width: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.bd-callout h1 {
+  font-size: 1.275em;
+  margin-bottom: 14px;
+  padding-bottom: 4px;
+}
+
+.bd-callout-info {
+  border-left-color: #54A4E0;
+}
+
+.bd-callout-warning {
+  border-left-color: #f0ad4e;
+}
+
+.bd-callout-danger {
+  border-left-color: #d9534f;
+}
+
+.bd-callout-custom-1 {
+  border-left-color: #5A6268;
+}
+
+.bd-callout-custom-2 {
+  border-left-color: #F7A6A7;
+}
+
+.bd-callout-custom-3 {
+  border-left-color: #FF1543;
+}
+
+.bd-callout-custom-4 {
+  border-left-color: #87BB69;
+}
+
+.bd-callout-custom-5 {
+  border-left-color: #F4B43E;
+}
+
+.bd-callout-custom-6 {
+  border-left-color: #900C3F;
+}
+
+.bd-callout-custom-7 {
+  border-left-color: #6C3483;
+}
+
+.bd-callout-bg-custom-1 {
+  background-color: #FAE7E8;
+}
+
+.bd-callout-danger h4 {
+  color: #d9534f;
+}
+
+.bd-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.border-danger {
+  border: 1px solid #B94A48 !important;
+}
+
+.custom-form-legend legend {
+  font-size: 1.275em;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.normal-label {
+  font-weight: normal;
+}
+
+.highlight td {
+  background-color: #F2F2F2 !important;
+}
+
+.run-in {
+  display: run-in !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+.font-normal {
+  font-weight: normal !important;
+}
+
+.bg-cusom-1 {
+  background-color: #f4f4f4;
+}
+
+.input-append {
+  border: 1px solid #eee;
+}
+
+.input-append:focus {
+  border: 1px solid #bbb;
+}
+
+.border-bottom-custom-1 {
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid #FFB848;
+  border-right: none;
+}
+
+.border-bottom-custom-2 {
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #bbb;
+  border-right: none;
+}
+
+a.link-color-white {
+  color: white;
+}
+
+a.link-color-white:hover {
+  color: white;
+}
+
+.bg-custom-1 {
+  background-color: #6C3483;
+}
+
+.text-color-custom-1 {
+  color: #6C3483 !important;
+}
+
+.bg-custom-2 {
+  background-color: #900C3F;
+}
+
+.text-color-custom-2 {
+  color: #900C3F !important;
+}
+
+.bg-custom-3 {
+  background-color: #F4511E;
+}
+
+.bg-custom-4 {
+  background-color: #E84C93;
+}
+
+.bg-custom-5 {
+  background-color: #20C997;
+}
+
+.text-color-custom-3 {
+  color: #F4511E !important;
+}
+
+.text-color-custom-4 {
+  color: #F9A825 !important;
+}
+
+.text-color-custom-5 {
+  color: #B71C1C !important;
+}
+
+.text-color-custom-6 {
+  color: #9C27B0 !important;
+}
+
+.text-color-custom-7 {
+  color: #E84C93 !important;
+}
+
+.text-color-custom-8 {
+  color: #A2E6D2 !important;
+}
+
+.btn-custom-1,
+.btn-custom-1:active,
+.btn-custom-1:visited {
+  background-color: #8064A2 !important;
+  color: white;
+}
+
+.btn-custom-1:hover {
+  background-color: #6C3483 !important;
+  color: white;
+}
+
+.btn-custom-3,
+.btn-custom-3:active,
+.btn-custom-3:visited {
+  background-color: #F4511E !important;
+  color: white;
+}
+
+.btn-custom-3:hover {
+  background-color: #BA4A00 !important;
+  color: white;
+}
+
+.btn-custom-4,
+.btn-custom-4:active,
+.btn-custom-4:visited {
+  background-color: #2196F3 !important;
+  color: white;
+}
+
+.btn-custom-4:hover {
+  background-color: #1976D2 !important;
+  color: white;
+}
+
+.btn-custom-5,
+.btn-custom-5:active,
+.btn-custom-5:visited {
+  background-color: #922B21 !important;
+  color: white;
+}
+
+.btn-custom-5:hover {
+  background-color: #641E16 !important;
+  color: white;
+}
+
+.btn-custom-6,
+.btn-custom-6:active,
+.btn-custom-6:visited {
+  background-color: #00ACC1 !important;
+  color: white;
+}
+
+.btn-custom-6:hover {
+  background-color: #00838F !important;
+  color: white;
+}
+
+.btn-custom-7,
+.btn-custom-7:active,
+.btn-custom-7:visited {
+  background-color: #139676 !important;
+  color: white;
+}
+
+.btn-custom-7:hover {
+  background-color: #108769 !important;
+  color: white;
+}
+
+.btn-custom-8,
+.btn-custom-8:active,
+.btn-custom-8:visited {
+  background-color: #139676 !important;
+  color: white;
+}
+
+.btn-custom-8:hover {
+  background-color: #108769 !important;
+  color: white;
+}
+
+.btn-custom-9,
+.btn-custom-9:active,
+.btn-custom-9:visited {
+  background-color: #A7512F !important;
+  color: white;
+}
+
+.btn-custom-9:hover {
+  background-color: #B86767 !important;
+  color: white;
+}
+
+.badge-custom-1 {
+  background-color: #DC7633;
+  color: white;
+}
+
+.badge-custom-2 {
+  background-color: #FFCA28;
+  color: #2C3E50;
+}
+
+.badge-custom-3 {
+  background-color: #CCFF99;
+  color: #1B5E20;
+}
+
+.badge-custom-4 {
+  background-color: #880E4F;
+  color: #ffffff;
+}
+
+.badge-custom-5 {
+  background-color: #F8D7DA;
+  color: #721C24;
+}
+
+.badge-custom-6 {
+  background-color: #e15c39;
+  color: #ffffff;
+}
+
+.badge-custom-7 {
+  background-color: #4E8CF1;
+  color: #ffffff;
+}
+
+.badge-custom-8 {
+  background-color: #FD78F8;
+  color: #8442CB;
+}
+
+.badge-custom-9 {
+  background-color: #81C8ED;
+  color: #086DC1;
+}
+
+.badge-custom-10 {
+  background-color: #1F618D;
+  color: #A9CCE3;
+}
+
+.font-0875 {
+  font-size: 0.875em !important;
+}
+
+.font-1 {
+  font-size: 1em !important;
+}
+
+.font-1875 {
+  font-size: 1.875em !important;
+}
+
+.font-2 {
+  font-size: 2em !important;
+}
+
+/* modal confirm */
+
+.modal-confirm {
+  color: #636363;
+  min-width: 400px;
+}
+
+.modal-confirm .modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.modal-confirm .modal-header {
+  border-bottom: none;
+  position: relative;
+  height: 140px;
+}
+
+.modal-confirm .modal-header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.modal-confirm .close {
+  position: absolute;
+  top: -5px;
+  right: -2px;
+}
+
+.modal-confirm .icon-box {
+  position: absolute;
+  top: 6px;
+  left: 41%;
+  width: 80px;
+  height: 80px;
+  /*margin: 0 auto;*/
+  border-radius: 50%;
+  z-index: 9;
+  /*text-align: center;*/
+  border: 3px solid #f15e5e;
+}
+
+.modal-confirm .icon-box-no-border {
+  position: absolute;
+  top: 6px;
+  left: 41%;
+  width: 80px;
+  height: 80px;
+  z-index: 9;
+}
+
+.modal-confirm .icon-box i {
+  color: #f15e5e;
+  font-size: 46px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.modal-confirm .icon-box-no-border i {
+  color: #f15e5e;
+  font-size: 60px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.modal-confirm h4 {
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  /*margin: 30px 0 -10px;*/
+}
+
+.modal-confirm .modal-body {
+  color: #999;
+}
+
+.modal-confirm .modal-footer {
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px 15px 25px;
+}
+
+.modal-confirm .modal-footer a {
+  color: #999;
+}
+
+.modal-confirm .btn {
+  color: #fff;
+  border-radius: 4px;
+  background: #60c7c1;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  min-width: 120px;
+  border: none;
+  min-height: 40px;
+  border-radius: 3px;
+  margin: 0 5px;
+  outline: none !important;
+}
+
+.modal-confirm .btn-info {
+  background: #c1c1c1;
+}
+
+.modal-confirm .btn-info:hover,
+.modal-confirm .btn-info:focus {
+  background: #a8a8a8;
+}
+
+.modal-confirm .btn-danger {
+  background: #f15e5e;
+}
+
+.modal-confirm .btn-danger:hover,
+.modal-confirm .btn-danger:focus {
+  background: #ee3535;
+}
+
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
+

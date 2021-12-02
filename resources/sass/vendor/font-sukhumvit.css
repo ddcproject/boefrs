@@ -1,0 +1,8 @@
+@font-face {
+	font-family:"sukhumvit";
+	src:url("../static/fonts/sukhumvit/SukhumvitReg.woff2") format('woff2'),
+		url("../static/fonts/sukhumvit/SukhumvitReg.woff") format('woff');
+	font-weight:600;
+	font-style:normal;
+	font-display:swap;
+}

@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Prompt';
+	src: url('../static/fonts/google/prompt-regular-webfont.eot');
+	src:
+		url('../static/fonts/google/prompt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../static/fonts/google/prompt-regular-webfont.woff2') format('woff2'),
+		url('../static/fonts/google/prompt-regular-webfont.woff') format('woff'),
+		url('../static/fonts/google/prompt-regular-webfont.ttf') format('truetype'),
+		url('../static/fonts/google/prompt-regular-webfont.svg#prompt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Motosansthai-Light';
+	src: url('../static/fonts/google/notosansthai-light-webfont.eot');
+	src:
+		url('../static/fonts/google/notosansthai-light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../static/fonts/google/notosansthai-light-webfont.woff2') format('woff2'),
+		url('../static/fonts/google/notosansthai-light-webfont.woff') format('woff'),
+		url('../static/fonts/google/notosansthai-light-webfont.ttf') format('truetype'),
+		url('../static/fonts/google/notosansthai-light-webfont.svg#prompt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Motoserifthai-Light';
+	src: url('../static/fonts/google/notoserifthai-light-webfont.eot');
+	src:
+		url('../static/fonts/google/notoserifthai-light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../static/fonts/google/notoserifthai-light-webfont.woff2') format('woff2'),
+		url('../static/fonts/google/notoserifthai-light-webfont.woff') format('woff'),
+		url('../static/fonts/google/notoserifthai-light-webfont.ttf') format('truetype'),
+		url('../static/fonts/google/notoserifthai-light-webfont.svg#prompt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

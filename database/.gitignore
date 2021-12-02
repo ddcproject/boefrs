@@ -1,0 +1,4 @@
+*.sqlite
+*.sqlite-journal
+/seeds/CreateAdminUserSeeder.php
+/seeds/PermissionTableSeeder.php
